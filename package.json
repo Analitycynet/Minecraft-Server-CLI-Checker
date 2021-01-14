@@ -1,0 +1,22 @@
+{
+  "name": "minecraft-server-cli-checker",
+  "version": "1.0.0",
+  "description": "cli checker for my haproxy external health check",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node14-win-x64",
+      "node14-linux-x64"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MrTalon63",
+  "license": "MIT",
+  "dependencies": {
+    "minecraft-pinger": "^1.0.5",
+    "minimist": "^1.2.5"
+  }
+}
